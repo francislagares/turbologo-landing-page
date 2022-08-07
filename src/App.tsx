@@ -6,7 +6,7 @@ import theme from 'config/theme';
 const App = () => {
   return (
     <Box>
-      <Typography variant='h3' sx={{ color: theme.palette.slateBlue.main }}>
+      <Typography variant='h2' sx={{ color: theme.palette.slateBlue.main }}>
         Hello Material UI 5
       </Typography>
     </Box>
