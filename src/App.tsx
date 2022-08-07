@@ -1,11 +1,15 @@
 import React from 'react';
+import { Box, Typography } from '@mui/material';
 import './styles/index.css';
+import theme from 'config/theme';
 
 const App = () => {
   return (
-    <div className='app'>
-      <h1>Hello React App</h1>
-    </div>
+    <Box>
+      <Typography variant='h3' sx={{ color: theme.palette.slateBlue.main }}>
+        Hello Material UI 5
+      </Typography>
+    </Box>
   );
 };
 
