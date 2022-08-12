@@ -4,7 +4,6 @@ import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import IconButton from '@mui/material/IconButton';
 import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
 
 import styles from './styles';
 import burger_menu from 'assets/img/burger_menu.svg';
@@ -12,8 +11,6 @@ import logo_desk from 'assets/img/logo_desc.svg';
 import logo_mob from 'assets/img/logo_mob.svg';
 
 import { Drawer, Navbar } from 'components';
-
-// SVG'S
 
 const Header = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
