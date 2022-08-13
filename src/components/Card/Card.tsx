@@ -37,7 +37,7 @@ const Card = ({ title }: ICardProps) => {
 
   return (
     <MuiCard sx={styles.card}>
-      <CardContent>
+      <CardContent sx={{ padding: 0 }}>
         <Box component='img' src={svg} />
         <Typography variant='h3' sx={styles.title}>
           {title}

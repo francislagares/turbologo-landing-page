@@ -1,7 +1,5 @@
 import { Box } from '@mui/material';
-import './styles/index.css';
-import { Header, Hero } from 'components';
-import CreativeDesign from 'components/CreativeDesign/CreativeDesign';
+import { CreativeDesign, Header, Hero } from 'components';
 
 const App = () => {
   return (

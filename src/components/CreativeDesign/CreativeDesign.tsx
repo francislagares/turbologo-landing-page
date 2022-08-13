@@ -2,6 +2,7 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
+import styles from './styles';
 import Card from 'components/Card/Card';
 
 const data = [
@@ -12,14 +13,14 @@ const data = [
 
 const CreativeDesign = () => {
   return (
-    <Box>
-      <Box>
+    <Box sx={styles.creativeDesign}>
+      <Box sx={styles.wrapper}>
         {' '}
         <Typography variant='h2'>Creative Design Solution</Typography>
         <Typography variant='body1'>
           Professional Design Agency to Provide Solutions
         </Typography>
-        <Stack>
+        <Stack sx={styles.stack}>
           {data.map(item => (
             <Card title={item.title} />
           ))}
