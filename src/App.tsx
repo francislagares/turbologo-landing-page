@@ -1,13 +1,14 @@
 import { Box } from '@mui/material';
 import './styles/index.css';
-import { Card, Header, Hero } from 'components';
+import { Header, Hero } from 'components';
+import CreativeDesign from 'components/CreativeDesign/CreativeDesign';
 
 const App = () => {
   return (
     <Box>
       <Header />
       <Hero />
-      <Card />
+      <CreativeDesign />
     </Box>
   );
 };
