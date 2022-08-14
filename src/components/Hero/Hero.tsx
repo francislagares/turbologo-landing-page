@@ -19,7 +19,7 @@ const Hero = () => {
           </Typography>
           <Button>Join Us</Button>
         </Box>
-        <Box component='img' src={photo_banner} />
+        <Box component='img' src={photo_banner} sx={styles.photo} />
       </Box>
     </Box>
   );

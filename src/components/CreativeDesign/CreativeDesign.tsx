@@ -22,7 +22,7 @@ const CreativeDesign = () => {
         </Typography>
         <Stack sx={styles.stack}>
           {data.map(item => (
-            <Card title={item.title} />
+            <Card key={item.title} title={item.title} />
           ))}
         </Stack>
       </Box>
