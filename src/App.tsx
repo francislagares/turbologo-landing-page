@@ -3,6 +3,7 @@ import {
   ContactUs,
   CreativeDesign,
   Experience,
+  Footer,
   Header,
   Hero,
 } from 'components';
@@ -15,6 +16,7 @@ const App = () => {
       <CreativeDesign />
       <Experience />
       <ContactUs />
+      <Footer />
     </Box>
   );
 };
