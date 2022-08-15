@@ -29,7 +29,6 @@ const Drawer = ({ open, onClose }: IDrawerProps) => {
       <Box sx={{ padding: '44px' }}>
         <Navbar />
       </Box>
-      Drawer
     </MuiDrawer>
   );
 };

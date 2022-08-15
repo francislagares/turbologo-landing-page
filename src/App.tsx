@@ -1,5 +1,11 @@
 import { Box } from '@mui/material';
-import { CreativeDesign, Experience, Header, Hero } from 'components';
+import {
+  ContactUs,
+  CreativeDesign,
+  Experience,
+  Header,
+  Hero,
+} from 'components';
 
 const App = () => {
   return (
@@ -8,6 +14,7 @@ const App = () => {
       <Hero />
       <CreativeDesign />
       <Experience />
+      <ContactUs />
     </Box>
   );
 };

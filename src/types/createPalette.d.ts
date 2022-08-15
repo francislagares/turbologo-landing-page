@@ -8,4 +8,9 @@ declare module '@mui/material/styles' {
   interface PaletteOptions {
     slateBlue: PaletteOptions['primary'];
   }
+
+  // allow configuration using `createTheme`
+  interface TypographyVariantsOptions {
+    someStyle?: React.CSSProperties;
+  }
 }

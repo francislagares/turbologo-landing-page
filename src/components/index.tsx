@@ -1,5 +1,6 @@
 import Button from './Button/Button';
 import Card from './Card/Card';
+import ContactUs from './ContactUs/ContactUs';
 import CreativeDesign from './CreativeDesign/CreativeDesign';
 import Drawer from './Drawer/Drawer';
 import Experience from './Experience/Experience';
@@ -14,6 +15,7 @@ export {
   Header,
   Hero,
   Card,
+  ContactUs,
   CreativeDesign,
   Experience,
 };
