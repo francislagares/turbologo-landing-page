@@ -1,5 +1,8 @@
 # Turbologo-Landing-Page
 
+![Design preview for the Manage landing page coding challenge](./src/assets/img/screenshot.png)
+
+
 ## Built with
 
 <p>
@@ -15,6 +18,8 @@
     <img src='https://img.shields.io/badge/material ui-0081CB?logo=material-ui&style=for-the-badge' />
   </a>
 </p>
+
+
 
 # Available Scripts
 
